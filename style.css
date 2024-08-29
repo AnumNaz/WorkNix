@@ -1,0 +1,156 @@
+body{
+    font-family: "Poppins", sans-serif;
+}
+
+
+.navbar-nav{
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    font-size: 14px;
+}
+.dropdown-menu{
+    font-size: 14px;
+    border: none;
+    box-shadow: 0px 0px 4px rgb(228, 228, 228);
+}
+
+.hero {
+    height: 90vh;
+}
+
+.carousel-inner {
+    height: 100%;
+}
+
+.carousel-item {
+    height: 100%;
+}
+
+.carousel-item img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.carousel-indicators [data-bs-target]{
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+}
+
+
+.heading, .heading span{
+    font-size: 26px;
+    font-weight: 700;
+}
+
+.heading span{
+    color: #f5a400;
+}
+
+.par-text{
+    font-size: 14px;
+    font-weight: 600;
+}
+
+
+.service-row{
+    background-color: #F5F5F5;
+}
+
+.card{
+    background-color: transparent;
+}
+
+.card-body h2, .card-body span{
+    font-size: 25px; 
+    font-weight: 700;
+}
+
+.footer p, .card-body p{
+    font-weight: 400;
+    font-size: 14px;
+}
+.card-body a{
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.card-body .par-text{
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.about{
+    display: flex; 
+    justify-content: center;
+    background-color:#F5F5F5; 
+    margin: 50px 0px;
+    padding: 150px 0px;
+    clip-path: polygon(0 14%, 100% 4%, 100% 100%, 0 86%);
+
+}
+
+.footer, .infoCon{
+    background-color:#F5F5F5; 
+}
+.infoCon .card-link, .about .card-link{
+    font-size: 20px;
+    font-weight: 700;
+    
+}
+
+.infoCon .par-text, .about .par-text{
+    line-height: 27px;
+}
+
+
+.img-box img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+.card-body h3{
+    font-size: 14px;
+    font-weight: 700;
+    margin: 0px;
+}
+
+
+.reviews .card-link{
+    color:#f5a400;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.fa-star{
+    color:#f5a400;
+}
+
+.check{
+    background-color: rgb(226, 176, 176);
+}
+
+.check div{
+    border: 1px solid black;
+}
+
+.contact{
+    color: #f5a400;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.number{
+    font-size: 14px;
+    color: rgb(2, 2, 136);
+
+}
+
+@media (max-width:768px) {
+    .hero {
+        height: 50vh;
+    }
+}
